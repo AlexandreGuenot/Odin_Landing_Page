@@ -106,14 +106,17 @@ main .quote{
     font-weight: bold;
 }
 .call-to-action{
-    margin-left: 25%;
-    background-color: #3882f6;
-    width: fit-content;
     display: flex;
-    gap: 200px;
-    padding: 20px 120px;
-    border-radius: 8px;
-    margin-top: 100px;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+.call-to-action .container{
+  display:flex;
+  background-color:blue;
+  border-radius:5px;
+  gap: 150px;
+  padding:40px;
 }
 .call-to-action .Go-on{
     color: white;
@@ -130,7 +133,7 @@ main .quote{
     color: white;
     background-color: #3882f6;
     padding: 6px 35px;
-    border: 2px solid white;
+    border:3px solid white;
     border-radius: 8px;
 }
 footer{
